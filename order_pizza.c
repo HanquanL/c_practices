@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
                 thick = 1;
                 break;
             default:
-                fprintf(stderr, "Unknown option: '%s\n', optarg");
+                fprintf(stderr, "Unknown option: '%s\n'", optarg);
 
             return 1;
         }
