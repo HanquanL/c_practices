@@ -9,3 +9,15 @@ char *ADS[] = {
 "Josh: SJM likes sports, movies and theater",
 "Jed: DBM likes theater, books and dining"
 };
+void find()
+{
+    int i ;
+    puts("Search results:");
+    puts("------------------------------------");
+    for(i = 0; i < NUM_ADS; i++){
+        if(strstr(ADS[1], "sports") && !strstr(ADS[i], "bieber")){
+            printf("%s\n", ADS[i]);
+        }
+    }
+    puts("------------------------------------");
+}
