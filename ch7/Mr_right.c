@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <string.h>
 
 int NUM_ADS = 7;
 char *ADS[] = {
@@ -15,9 +17,15 @@ void find()
     puts("Search results:");
     puts("------------------------------------");
     for(i = 0; i < NUM_ADS; i++){
-        if(strstr(ADS[1], "sports") && !strstr(ADS[i], "bieber")){
+        if(strstr(ADS[i], "sports") && !strstr(ADS[i], "bieber")){
             printf("%s\n", ADS[i]);
         }
     }
     puts("------------------------------------");
+}
+
+int main()
+{
+    find();
+    return 0;
 }
