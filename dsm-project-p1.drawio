@@ -199,10 +199,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4QjDc2ntXNkwie98VRhu-1" value="Account&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4QjDc2ntXNkwie98VRhu-1" value="Account&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="365" y="310" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4QjDc2ntXNkwie98VRhu-2" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4QjDc2ntXNkwie98VRhu-2" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="40" y="310" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4QjDc2ntXNkwie98VRhu-3" value="Account_Member" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -295,7 +295,7 @@
         <mxCell id="4QjDc2ntXNkwie98VRhu-24" value="1..1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="270" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4QjDc2ntXNkwie98VRhu-25" value="Associate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4QjDc2ntXNkwie98VRhu-25" value="Associate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="710" y="310" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4QjDc2ntXNkwie98VRhu-26" value="ManagerContract" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -313,7 +313,7 @@
             <mxPoint x="660" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QjDc2ntXNkwie98VRhu-29" value="Contract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4QjDc2ntXNkwie98VRhu-29" value="Contract" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="530" y="450" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4QjDc2ntXNkwie98VRhu-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4QjDc2ntXNkwie98VRhu-29" target="4QjDc2ntXNkwie98VRhu-26">
@@ -384,7 +384,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4QjDc2ntXNkwie98VRhu-43" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="175" y="560" width="40" height="30" as="geometry" />
+          <mxGeometry x="175" y="570" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4QjDc2ntXNkwie98VRhu-45" value="Product" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="465" y="630" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
