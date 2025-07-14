@@ -195,7 +195,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="njF0p4-l5x48rLC_md44" name="Page-2">
-    <mxGraphModel dx="1426" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -387,7 +387,10 @@
           <mxGeometry x="175" y="570" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4QjDc2ntXNkwie98VRhu-45" value="Product" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="465" y="630" width="110" height="40" as="geometry" />
+          <mxGeometry x="810" y="630" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4QjDc2ntXNkwie98VRhu-46" value="Referes to" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="570" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
