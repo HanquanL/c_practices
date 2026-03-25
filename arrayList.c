@@ -37,6 +37,29 @@ bool appendArrayList(ArrayList *list, int value)
     return true;
 }
 
+bool insertArrayList(ArrayList *list, int index, int value)
+{
+    if (list->size >= 100)
+    {
+        printf("The ArrayList is full!\n");
+        return false;
+    }
+    if (index < 0 || index > list->size)
+    {
+        printf("invalid index!\n");
+        return false;
+    }
+    for (int i = list->size; i > index; i--)
+    {
+        list->data[i] = list->data[i - 1];
+    }
+
+    list->data[index] = value;
+    list->size++;
+
+    return true;
+}
+
 int main(void)
 {
     ArrayList list;
@@ -48,6 +71,18 @@ int main(void)
     appendArrayList(&list, 2);
     appendArrayList(&list, 3);
     printArrayList(&list);
+
+    insertArrayList(&list, 1, 99);
+    printArrayList(&list);
+
+    insertArrayList(&list, 0, 5);
+    printArrayList(&list);
+
+    insertArrayList(&list, list.size, 777);
+    printArrayList(&list);
+
+    insertArrayList(&list, 10, 10);
+    insertArrayList(&list, 0, 10);
 
     return 0;
 }
