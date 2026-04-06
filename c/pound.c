@@ -8,7 +8,8 @@ int main(){
 
     pound(times);
     pound(ch);
-    pound(f);
+    //pound(f);  // this one would fail, float is automatically promoted to double
+    pound(int(f));
 
     return 0;
 }
